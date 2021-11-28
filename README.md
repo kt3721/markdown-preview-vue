@@ -1,15 +1,21 @@
 # markdown-preview-vue
 
-markdown 预览组件
+[English Doc](./README.en-US.md)
+
+vue markdown 预览组件
 
 ## 安装
 
 ```shell
 npm i markdown-preview-vue -S
+
+// 或
+
+yarn add markdown-preview-vue
 ```
 
 ## 使用
-### 局部引入
+### 局部注册
 ```vue
 <template>
   <div class="App">
@@ -34,7 +40,7 @@ npm i markdown-preview-vue -S
 </script>
 ```
 
-### 全局引入
+### 全局注册
 ```javascript
 // main.js
 import Vue from 'vue'
