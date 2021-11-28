@@ -1,23 +1,31 @@
 {
   "name": "markdown-preview-vue",
   "version": "0.1.0",
-  "description": "markdown preview vue component",
+  "description": "vue markdown preview",
   "main": "dist/index.js",
   "scripts": {
     "dev": "cd example && vue serve",
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kt3721/markdown-preview-vue.git"
+  },
   "keywords": [
-    "markdown",
-    "preview",
     "vue",
-    "vue component"
+    "markdown",
+    "preview"
   ],
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "author": "Joe",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3721/markdown-preview-vue/issues"
+  },
+  "homepage": "https://github.com/kt3721/markdown-preview-vue#readme",
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
