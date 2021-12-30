@@ -9,7 +9,7 @@ vue markdown 预览组件
 ```shell
 npm i markdown-preview-vue -S
 
-// 或
+# 或
 
 yarn add markdown-preview-vue
 ```
